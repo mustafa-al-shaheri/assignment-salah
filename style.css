@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 100%;
+}
+p {
+    opacity: 0.7;
+}
+ .header{
+    background: linear-gradient(rgba(2, 2, 2, 0.842), rgba(0, 0, 0, 0.801)),
+    url(https://videohive.img.customer.envatousercontent.com/files/136149564/Image%20Preview_High%20Speed%20Working%20In%20Office.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=915378408bb29a946661121713086925)
+        no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    color: white;
+    position: relative;
+ }
+.header .top-menu{
+    display: flex;
+    justify-content: space-around;
+    height: 100;
+    align-items: center;
+}
+.top-menu .logo{
+    opacity: 0.5;
+}
+.top-menu nav{
+    width: 40%;
+}
+.top-menu nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.top-menu nav a {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-weight: 700;
+}
+.header .hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+    text-transform:uppercase;
+    font-weight:500;
+    padding-bottom:40px;
+    position: relitive;
+}
+.hero h1::after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    height: 3px;
+    width: 50px;
+    background: rgb(255, 102, 0);
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn-one{
+    display: inline-block;
+    margin:20px auto;
+    text-decoration:none;
+    color: white;
+    padding: 10px 30px;
+    background: rgb(255, 102, 0);
+    border-radius: 100px;
+}
+section#first {
+    background-color:  rgb(255, 102, 0);
+    width: auto;
+    height: 400px;
+    position: relative;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content article h1{
+    font-weight: 500;
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.content article p{
+    color: white;
+    font-size: 1.3em;
+}
+
+.btn-two{
+    display: inline-block;
+    margin: 20px auto;
+    text-decoration: none;
+    color:black;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 100px;
+}.first h3,
+.second h3,
+.footer h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 40px;
+    position: relative;
+}
+.first h3::after,
+.second h3::after,
+.footer h3::after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    height: 3px;
+    width: 50px;
+    background: white;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section#second {
+    background-color:   white;
+    width: auto;
+  
+}
+#second h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#second h2 span{
+    border-bottom: 3px solid rgb(255, 102, 0);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.row .item{
+    width:20%;
+    height: auto;
+    text-align: center;
+    margin: 100px auto; 
+}
+.item h4{
+    font-size: 2em;
+}
+
+.item p{
+    font-size: 1em;
+    word-wrap: break-word;
+}
+.item svg{
+    font-size: 50px;
+    color: rgb(255, 102, 0);
+    margin: 40px auto 20px;
+}
+section#third{
+    width: auto;
+    height: 400px;
+}
+.third {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.third .block {
+    height: 250px;
+}
+.third .block img {
+    width: 100%;
+    height: 100%;
+}
+.third .block:nth-of-type(1) {
+    background: black;
+}
+.third .block:nth-of-type(2) {
+    background: #111;
+}
+.third .block:nth-of-type(3) {
+    background: #222;
+}
+.third .block:nth-of-type(4) {
+    background: #333;
+}
+.third .block:nth-of-type(5) {
+    background: #444;
+}
+.third .block:nth-of-type(6) {
+    background: #555;
+}
+.third-b {
+    background: #777;
+    padding: 50px 0;
+    text-align: center;
+}
+.third-b article {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+.third-b article h3 {
+    font-size: 2em;
+    font-weight: 500;
+}
+.third-b .btn-one {
+    background: white;
+    color: black;
+}
+.footer {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 18em;
+}
+.footer .contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 50px auto;
+    grid-gap: 30px;
+    justify-content: space-around;
+}
+.footer svg {
+    font-size: 50px;
+    color: #555;
+}
+.footer .contact p {
+    margin: 10px auto;
+}
+.footer .red {
+    color: rgba(224, 43, 37, 0.884);
+}
+/* .footer address {
+    margin-top: 50px;
+    opacity: 0.7;
+}
+.footer address span {
+    color: red;
+} */
+@media (max-width:652px){
+    .header ,.row {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
